@@ -5,7 +5,11 @@ import Link from "next/link";
 import { GrInstagram } from "react-icons/gr";
 import { PiDribbbleLogoBold } from "react-icons/pi";
 import { motion } from "framer-motion";
-import { Player } from "@lottiefiles/react-lottie-player";
+import dynamic from "next/dynamic";
+const Player = dynamic(
+	() => import("@lottiefiles/react-lottie-player").then((mod) => mod.Player),
+	{ ssr: false },
+);
 
 interface Props {}
 

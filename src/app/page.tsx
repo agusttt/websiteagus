@@ -5,6 +5,7 @@ import Clients from "@/components/Clients";
 import Experiences from "@/components/Experiences";
 import Explorations from "@/components/Explorations";
 import Testimonials from "@/components/Testimonials";
+import ClientFooterWrapper from "@/components/ClientFooterWrapper";
 
 export default function Home() {
 	return (
@@ -15,6 +16,7 @@ export default function Home() {
 			<Explorations />
 			<Clients />
 			<Testimonials />
+			<ClientFooterWrapper />
 		</div>
 	);
 }
