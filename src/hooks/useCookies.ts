@@ -31,17 +31,21 @@ export function useCookies() {
             date.setTime(date.getTime() + days * 24 * 60 * 60 * 1000);
             expires = `; expires=${date.toUTCString()}`;
         }
-        document.cookie = `${name}=${encodeURIComponent(value)}${expires}; path=/`;
-        setCookies((prev) => ({ ...prev, [name]: value }));
+        if (typeof window !== 'undefined') {
+            document.cookie = `${name}=${encodeURIComponent(value)}${expires}; path=/`;
+            setCookies((prev) => ({ ...prev, [name]: value }));
+        }
     };
 
     const deleteCookie = (name: string) => {
-        document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
-        setCookies((prev) => {
-            const updatedCookies = { ...prev };
-            delete updatedCookies[name];
-            return updatedCookies;
-        });
+        if (typeof window !== 'undefined') {
+            document.cookie = `${name}=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;`;
+            setCookies((prev) => {
+                const updatedCookies = { ...prev };
+                delete updatedCookies[name];
+                return updatedCookies;
+            });
+        }
     };
 
     return { cookies, getCookie, setCookie, deleteCookie };
