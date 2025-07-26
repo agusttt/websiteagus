@@ -69,16 +69,16 @@ const HeroSection = () => {
 
       <section className="relative w-full h-screen flex items-center bg-[#fcfcfb] overflow-hidden">
         {/* === Side Card === */}
-        <div className="w-[480px] h-[320px] absolute right-[-18px] bottom-[-5px] rounded-3xl z-10">
-          <div className="w-full flex items-end relative">
+        <div className="card-profession absolute right-[-18px] bottom-[-6px] rounded-3xl z-10">
+          <div className="profession-content w-full flex items-end relative">
             <div className="p-4 text-right">
-              <div className="relative top-[48px] left-[-30%] text-[32px] font-bold leading-[36px]">
-                <h2 className="">👋 Hi, I'm</h2>
-                <h2 className="">Agus Susilo</h2>
+              <div className="relative top-[48px] left-[-30%]">
+                <h2 className="greeting-name">👋 Hi, I'm</h2>
+                <h2 className="greeting-name">Agus Susilo</h2>
               </div>
 
               {/* === Title Fade Slider === */}
-              <div className="relative top-[52px] w-[320px] fade-wrapper mt-2 ml-auto pb-[10px]">
+              <div className="relative top-[52px] fade-wrapper mt-2 ml-auto pb-[10px] profession">
                 {roles.map((role, i) => (
                   <h2
                     key={`role-${i}`}
@@ -86,7 +86,7 @@ const HeroSection = () => {
                       i === activeIndex ? 'active' : ''
                     }`}
                   >
-                    <span className="text-[28px] font-normal leading-[36px] text-gray-600 flex justify-start">
+                    <span className="font-normal text-gray-600 flex justify-start">
                       {role}
                     </span>
                   </h2>
@@ -115,7 +115,7 @@ const HeroSection = () => {
             </h2>
           </div>
 
-          <div className="w-full flex items-center justify-center mt-6">
+          <div className="w-full flex items-center justify-center mt-6 initialize">
             <Image
               src="/images/loading-time-sand.png"
               width={68}
@@ -123,10 +123,10 @@ const HeroSection = () => {
               alt="Loading icon"
               className="rotate-clockwise"
             />
-            <p className="ml-4 text-[40px]">Initializing design + logic</p>
+            <p className="ml-4">Initializing design + logic</p>
           </div>
 
-          <div className="flex justify-center items-center mx-auto h-[74px] w-[640px] text-center text-gray-600 mt-4">
+          <div className="flex justify-center items-center mx-auto h-[74px] w-[640px] text-center text-gray-600 2xl:mt-4 xl:mt-3 lg:mt-3 md:mt-3 sm:mt-3 max-sm:mt-3">
             <motion.p
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -140,7 +140,7 @@ const HeroSection = () => {
           <div className="w-full flex justify-center mt-6">
             <Link
               href="/"
-              className="group relative flex items-center justify-center overflow-hidden rounded-[40px] border-2 border-gray-50 bg-gradient-to-r from-[#498afe] to-[#ff43e9] 2xl:px-8.5 xl:px-8.5 lg:px-8.5 md:px-8.5 sm:px-8.5 max-sm:px-8.5 2xl:py-5 xl:py-5 lg:py-5 md:py-5 sm:py-5 max-sm:py-5 transition-all duration-500 hover:shadow-md"
+              className="group relative flex items-center justify-center overflow-hidden rounded-[40px] border-2 border-gray-50 bg-gradient-to-r from-[#498afe] to-[#ff43e9] 2xl:px-8.5 xl:px-7 lg:px-7 md:px-7 sm:px-7 max-sm:px-7 2xl:py-5 xl:py-4 lg:py-4 md:py-4.5 sm:py-4.5 max-sm:py-4.5 transition-all duration-500 hover:shadow-md"
             >
               <span className="relative z-10 mr-2 text-lg font-semibold text-gray-50 uppercase group-hover:text-white">
                 DISCOVER MY CREATIVE LOGIC

@@ -25,14 +25,17 @@ function Footer(props: any) {
 					height={286}
 				/>
 			</div>
-			<div className="wrapper">
+			<div className="absolute z-2 opacity-50 left-[-5%] top-[-24%] 2xl:w-[1280px] xl:w-[1080px] lg:w-[980px] md:w-[640px] sm:w-[360px] max-sm:w-[274px] [&>img]:max-w-full">
+				<img src="/images/footer-bg-1.png" alt="footer agus susilo product designer UI/UX Designer Jakarta, Indonesia" />
+			</div>
+			<div className="wrapper relative z-4">
 				<div className="flex flex-wrap max-sm:mx-[5px] sm:mx-[15px] md:mx-[15px] lg:-mx-[15px] xl:-mx-[15px] 2xl:-mx-[15px]">
 					<div className="px-[15px] max-sm:w-full max-sm:py-[76px] sm:w-full sm:py-[76px] md:w-full md:py-[98px] lg:w-[60%] lg:py-[120px] xl:w-[60%] xl:py-[120px] 2xl:w-[62%] 2xl:py-[120px]">
 						<div className="w-full [&>h2]:mb-1.5 [&>h2]:font-regular [&>h2]:tracking-[-1.24px] [&>h2]:last:mb-8 max-sm:[&>h2]:last:-mt-4 sm:[&>h2]:last:-mt-4 md:[&>h2]:last:mt-3.5 lg:[&>h2]:last:mt-3.5 xl:[&>h2]:last:mt-3.5 2xl:[&>h2]:last:mt-3.5">
 							<h2 className="footerheading-2">Got an Idea to Realize?</h2>
 						</div>
 						<div className="w-full flex justify-between items-center">
-							<div className="w-[54%] 2xl:[&>h3]:text-[88px] 2xl:[&>h3]:leading-[91px] [&>h3]:tracking-[-1.32px] [&>h3]:font-semibold">
+							<div className="w-[54%] 2xl:[&>h3]:text-[78px] 2xl:[&>h3]:leading-[91px] xl:[&>h3]:text-[65px] xl:[&>h3]:leading-[67px] [&>h3]:tracking-[-1.32px] [&>h3]:font-semibold">
 								<h3>Let’s make it</h3>
 								<h3>happen</h3>
 							</div>
@@ -221,7 +224,7 @@ function Footer(props: any) {
 							</div>
 						</div>
 					</div>
-					<div className="w-full absolute bottom-[22%] [&>h2]:font-bold [&>h2]:border-gray-200 2xl:[&>h2]:text-[124px]">
+					<div className="w-full absolute bottom-[22%] [&>h2]:font-bold [&>h2]:border-gray-900 2xl:[&>h2]:text-[124px] xl:[&>h2]:text-[115px] lg:[&>h2]:text-[110px] md:[&>h2]:text-[100px] sm:[&>h2]:text-[94px] max-sm:[&>h2]:text-[80px]">
 						<h2 className="hire-text-stroke ">HIRE ME HIRE ME</h2>
 					</div>
 					<div className="relative z-2 pt-4 flex 2xl:flex-row xl:flex-row lg:flex-row md:flex-col sm:flex-col max-sm:flex-col justify-between items-center pb-10 max-sm:w-full sm:w-full md:w-full lg:w-full xl:w-full 2xl:xl:w-full">

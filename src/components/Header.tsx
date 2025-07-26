@@ -58,12 +58,12 @@ function Header() {
                             />
                         </Link>
                     </div>
-                    <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden max-sm:hidden [&>ul>li>a]:font-Geist w-auto [&>ul]:flex [&>ul>li]:px-4.5 [&>ul>li>a]:text-[38px] [&>ul>li>a]:tracking-[-0.86px] [&>ul>li>a]:font-semibold [&>ul>li>a]:text-gray-950 [&>ul>li>a]:transition-all [&>ul>li>a]:duration-300 [&>ul>li>a]:hover:bg-gradient-to-r [&>ul>li>a]:hover:from-[#498afe] [&>ul>li>a]:hover:to-[#ff43e9] [&>ul>li>a]:hover:bg-clip-text [&>ul>li>a]:hover:font-semibold [&>ul>li>a]:hover:text-transparent">
+                    <div className="2xl:flex xl:flex lg:flex md:flex sm:hidden max-sm:hidden [&>ul>li>a]:font-Geist w-auto [&>ul]:flex [&>ul>li]:px-4.5 [&>ul>li>a]:tracking-[-0.86px] [&>ul>li>a]:font-semibold [&>ul>li>a]:text-gray-950 [&>ul>li>a]:transition-all [&>ul>li>a]:duration-300 [&>ul>li>a]:hover:bg-gradient-to-r [&>ul>li>a]:hover:from-[#498afe] [&>ul>li>a]:hover:to-[#ff43e9] [&>ul>li>a]:hover:bg-clip-text [&>ul>li>a]:hover:font-semibold [&>ul>li>a]:hover:text-transparent">
                         <ul>
-                            <li><Link href="/">about</Link></li>
-                            <li><Link href="/">case study</Link></li>
-                            <li><Link href="/">exploration</Link></li>
-                            <li><Link href="/">resume</Link></li>
+                            <li><Link className="navmenu" href="/">about</Link></li>
+                            <li><Link className="navmenu" href="/">case study</Link></li>
+                            <li><Link className="navmenu" href="/">exploration</Link></li>
+                            <li><Link className="navmenu" href="/">resume</Link></li>
                         </ul>
                     </div>
                     <div className="w-auto 2xl:flex xl:flex lg:flex md:flex sm:hidden max-sm:hidden">
