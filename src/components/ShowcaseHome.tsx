@@ -7,15 +7,15 @@ function ShowcaseHome() {
     return (
         <div className="h-auto w-full max-sm:py-[76px] sm:py-[76px] md:py-[98px] lg:py-[120px] xl:py-[120px] 2xl:py-[120px]">
             <div className="wrapper">
-                <div className="sticky top-[118px] flex flex-wrap max-sm:mx-[15px] sm:mx-[15px] md:mx-[15px] lg:-mx-[15px] xl:-mx-[15px] 2xl:-mx-[15px]">
+                <div className="2xl:sticky xl:sticky lg:sticky md:relative sm:relative max-sm:relative top-[118px] flex flex-wrap max-sm:mx-[15px] sm:mx-[15px] md:mx-[15px] lg:-mx-[15px] xl:-mx-[15px] 2xl:-mx-[15px]">
                     <div className="w-full px-[15px]">
-                        <div className="text-center leading-[54.5px] [&>h2]:mb-1.5 [&>h2]:mb-8 [&>h2]:text-[50px] [&>h2]:font-extrabold [&>h2]:tracking-[-0.24px] [&>h2]:text-gray-950">
+            <div className="2xl:[&>h2]:text-[50px] xl:[&>h2]:text-[36px] lg:[&>h2]:text-[34px] md:[&>h2]:text-[32px] sm:[&>h2]:text-[32px] max-sm:[&>h2]:text-[32px] [&>h2]:tracking-[-0.24px] [&>h2]:text-gray-950 [&>h2]:font-bold 2xl:[&>h2]:mb-8 xl:[&>h2]:mb-8 lg:[&>h2]:mb-6 md:[&>h2]:mb-5 sm:[&>h2]:mb-5 max-sm:[&>h2]:mb-5 text-center leading-normal">
                             <h2>Mutual Visions Realized</h2>
                         </div>
                     </div>
                 </div>
                 <div className="flex flex-col justify-center max-sm:mx-[5px] sm:mx-[15px] md:mx-[15px] lg:-mx-[15px] xl:-mx-[15px]">
-                    <div className="sticky top-[214px] mt-4 mb-4 flex min-h-[286px] w-full flex-wrap items-center overflow-hidden rounded-4xl 2xl:px-[15px] xl:px-[15px] md:px-[0px] sm:px-[15px] max-sm:px-[15px] max-sm:py-3 sm:py-3 md:py-2.5 lg:py-1.5 xl:py-1.5">
+                    <div className="2xl:sticky xl:sticky lg:sticky md:relative sm:relative max-sm:relative top-[214px] mt-4 mb-4 flex min-h-[286px] w-full flex-wrap items-center overflow-hidden rounded-4xl 2xl:px-[15px] xl:px-[15px] md:px-[0px] sm:px-[15px] max-sm:px-[15px] max-sm:py-3 sm:py-3 md:py-2.5 lg:py-1.5 xl:py-1.5">
                         <div className="shadow-[0_1px_10px_#97a4af24] flex w-full flex-wrap items-center rounded-4xl bg-[#eff4ff] max-sm:flex-col max-sm:pt-0 max-sm:pb-8.5 sm:flex-col sm:pt-0 sm:pb-8.5 md:flex-col md:pt-8.5 lg:flex-row lg:pt-9.5 lg:pb-9.5 xl:flex-row md:flex-row xl:pt-9.5 xl:pb-8.5 xl:pb-9.5">
                             <div className="z-3 rounded-tl-4xl rounded-bl-4xl bg-[#eff4ff] max-sm:order-2 max-sm:w-full max-sm:pr-[24px] max-sm:pl-[24px] sm:order-2 sm:w-full sm:pr-[24px] sm:pl-[24px] md:order-1 md:w-[100%] md:pr-[32px] md:pl-[32px] lg:order-1 lg:w-[44%] lg:pr-[30px] lg:pl-[36px] xl:order-1 xl:w-[44%] xl:pr-[30px] 2xl:xl:w-[44%]z-3 rounded-tl-4xl rounded-bl-4xl bg-[#eff4ff] max-sm:order-2 max-sm:w-full max-sm:pr-[24px] max-sm:pl-[24px] sm:order-2 sm:w-full sm:pr-[24px] sm:pl-[24px] md:order-1 md:w-[100%] md:pr-[24px] md:pl-[24px] lg:order-1 md:order-2 lg:w-[44%] lg:pr-[30px] lg:pl-[36px] xl:order-1 xl:w-[44%] xl:pr-[30px] 2xl:xl:w-[44%] md:mt-6.5">
                                 <Link
@@ -93,7 +93,7 @@ function ShowcaseHome() {
                             </div>
                         </div>
                     </div>
-                    <div className="sticky top-[230px] mt-4 mb-4 flex min-h-[286px] w-full flex-wrap items-center overflow-hidden rounded-4xl 2xl:px-[15px] xl:px-[15px] md:px-[0px] sm:px-[15px] max-sm:px-[15px] max-sm:py-3 sm:py-3 md:py-2.5 lg:py-1.5 xl:py-1.5">
+                    <div className="2xl:sticky xl:sticky lg:sticky md:relative sm:relative max-sm:relative top-[230px] mt-4 mb-4 flex min-h-[286px] w-full flex-wrap items-center overflow-hidden rounded-4xl 2xl:px-[15px] xl:px-[15px] md:px-[0px] sm:px-[15px] max-sm:px-[15px] max-sm:py-3 sm:py-3 md:py-2.5 lg:py-1.5 xl:py-1.5">
                         <div className="shadow-[0_1px_10px_#97a4af24] flex w-full flex-wrap items-center rounded-4xl bg-[#eff4ff] max-sm:flex-col max-sm:pt-0 max-sm:pb-8.5 sm:flex-col sm:pt-0 sm:pb-8.5 md:flex-col md:pt-8.5 lg:flex-row lg:pt-9.5 lg:pb-9.5 xl:flex-row xl:pt-9.5 xl:pb-8.5 xl:pb-9.5">
                             <div className="z-3 rounded-tl-4xl rounded-bl-4xl bg-[#eff4ff] max-sm:order-2 max-sm:w-full max-sm:pr-[24px] max-sm:pl-[24px] sm:order-2 sm:w-full sm:pr-[24px] sm:pl-[24px] md:order-1 md:w-[100%] md:pr-[32px] md:pl-[32px] lg:order-1 lg:w-[44%] lg:pr-[30px] lg:pl-[36px] xl:order-1 xl:w-[44%] xl:pr-[30px] 2xl:xl:w-[44%]z-3 rounded-tl-4xl rounded-bl-4xl bg-[#eff4ff] max-sm:order-2 max-sm:w-full max-sm:pr-[24px] max-sm:pl-[24px] sm:order-2 sm:w-full sm:pr-[24px] sm:pl-[24px] md:order-1 md:w-[100%] md:pr-[24px] md:pl-[24px] lg:order-1 md:order-2 lg:w-[44%] lg:pr-[30px] lg:pl-[36px] xl:order-1 xl:w-[44%] xl:pr-[30px] 2xl:xl:w-[44%] md:mt-6.5">
                                 <Link
@@ -173,7 +173,7 @@ function ShowcaseHome() {
                             </div>
                         </div>
                     </div>
-                    <div className="sticky top-[246px] mt-4 mb-4 flex min-h-[286px] w-full flex-wrap items-center overflow-hidden rounded-4xl 2xl:px-[15px] xl:px-[15px] md:px-[0px] sm:px-[15px] max-sm:px-[15px] max-sm:py-3 sm:py-3 md:py-2.5 lg:py-1.5 xl:py-1.5">
+                    <div className="2xl:sticky xl:sticky lg:sticky md:relative sm:relative max-sm:relative top-[246px] mt-4 mb-4 flex min-h-[286px] w-full flex-wrap items-center overflow-hidden rounded-4xl 2xl:px-[15px] xl:px-[15px] md:px-[0px] sm:px-[15px] max-sm:px-[15px] max-sm:py-3 sm:py-3 md:py-2.5 lg:py-1.5 xl:py-1.5">
                         <div className="shadow-[0_1px_10px_#97a4af24] flex w-full flex-wrap items-center rounded-4xl bg-[#eff4ff] max-sm:flex-col max-sm:pt-0 max-sm:pb-8.5 sm:flex-col sm:pt-0 sm:pb-8.5 md:flex-col md:pt-8.5 lg:flex-row lg:pt-9.5 lg:pb-9.5 xl:flex-row xl:pt-9.5 xl:pb-8.5 xl:pb-9.5">
                             <div className="z-3 rounded-tl-4xl rounded-bl-4xl bg-[#eff4ff] max-sm:order-2 max-sm:w-full max-sm:pr-[24px] max-sm:pl-[24px] sm:order-2 sm:w-full sm:pr-[24px] sm:pl-[24px] md:order-1 md:w-[100%] md:pr-[32px] md:pl-[32px] lg:order-1 lg:w-[44%] lg:pr-[30px] lg:pl-[36px] xl:order-1 xl:w-[44%] xl:pr-[30px] 2xl:xl:w-[44%]z-3 rounded-tl-4xl rounded-bl-4xl bg-[#eff4ff] max-sm:order-2 max-sm:w-full max-sm:pr-[24px] max-sm:pl-[24px] sm:order-2 sm:w-full sm:pr-[24px] sm:pl-[24px] md:order-1 md:w-[100%] md:pr-[24px] md:pl-[24px] lg:order-1 md:order-2 lg:w-[44%] lg:pr-[30px] lg:pl-[36px] xl:order-1 xl:w-[44%] xl:pr-[30px] 2xl:xl:w-[44%] md:mt-6.5">
                                 <Link

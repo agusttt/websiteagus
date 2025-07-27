@@ -66,7 +66,7 @@ function Experiences() {
       <div className="wrapper">
         <div className="flex flex-wrap max-sm:mx-[5px] sm:mx-[15px] md:mx-[15px] lg:-mx-[15px] xl:-mx-[15px] 2xl:-mx-[15px]">
           <div className="w-full px-[15px]">
-            <div className="[&amp;&gt;h2]:text-[50px] [&amp;&gt;h2]:mb-1.5 [&amp;&gt;h2]:tracking-[-0.24px] [&amp;&gt;h2]:text-gray-950 [&amp;&gt;h2]:font-extrabold [&amp;&gt;h2]:mb-8 text-center leading-[54.5px]">
+            <div className="2xl:[&>h2]:text-[50px] xl:[&>h2]:text-[36px] lg:[&>h2]:text-[34px] md:[&>h2]:text-[32px] sm:[&>h2]:text-[32px] max-sm:[&>h2]:text-[32px] [&>h2]:tracking-[-0.24px] [&>h2]:text-gray-950 [&>h2]:font-bold 2xl:[&>h2]:mb-8 xl:[&>h2]:mb-8 lg:[&>h2]:mb-6 md:[&>h2]:mb-5 sm:[&>h2]:mb-5 max-sm:[&>h2]:mb-5 text-center leading-normal">
               <h2>About Me</h2>
             </div>
           </div>

@@ -17,14 +17,6 @@ function Footer(props: any) {
 	const {} = props;
 	return (
 		<div className="relative w-full bg-white">
-			<div className="absolute right-[-5%] bottom-[10%] w-[320px] [&>img]:max-w-full">
-				<Image
-					src="/images/bg-footer-agussusilo0893-product-designer-ui-ux-designer-website-designer.png"
-					alt="bg footer agussusilo0893 product designer ui-ux designer website designer web developer freelance indonesia depok jawa-tengah"
-					width={286}
-					height={286}
-				/>
-			</div>
 			<div className="absolute z-2 opacity-50 left-[-5%] top-[-24%] 2xl:w-[1280px] xl:w-[1080px] lg:w-[980px] md:w-[640px] sm:w-[360px] max-sm:w-[274px] [&>img]:max-w-full">
 				<img src="/images/footer-bg-1.png" alt="footer agus susilo product designer UI/UX Designer Jakarta, Indonesia" />
 			</div>
@@ -204,14 +196,11 @@ function Footer(props: any) {
 						</div>
 						<div className="w-full mt-6">
 							<div className="w-auto">
-								<Link
-									href="/"
-									className="group relative flex items-center justify-center overflow-hidden rounded-[40px] border-2 border-gray-50 bg-gradient-to-r from-[#498afe] to-[#ff43e9] 2xl:px-8.5 xl:px-8.5 lg:px-8.5 md:px-8.5 sm:px-8.5 max-sm:px-8.5 2xl:py-5 xl:py-5.5 lg:py-5.5 md:py-5 sm:py-5 max-sm:py-5 transition-all duration-500 hover:shadow-md max-sm:w-full sm:w-full md:w-[324px] lg:w-[324px] xl:w-[324px]"
-								>
-									<span className="relative z-10 mr-2 text-lg font-semibold text-gray-50 uppercase group-hover:text-white">
+								<Link href="/" className="group relative flex items-center justify-center overflow-hidden rounded-[40px] border-2 border-gray-50 bg-gradient-to-r from-[#498afe] to-[#ff43e9] 2xl:px-8.5 xl:px-7 lg:px-7 md:px-7 sm:px-7 max-sm:px-7 2xl:py-5 xl:py-3.5 lg:py-3.5 md:py-4.5 sm:py-4.5 max-sm:py-4.5 transition-all duration-500 hover:shadow-md">
+									<span className="relative z-10 2xl:mr-2 xl:mr-2 lg:mr-2 md:mr-2 sm:mr-2 max-sm:mr-1.5 2xl:text-lg xl:text-lg lg:text-[15.5px] sm:text-[15px] max-sm:text-[15px] font-semibold text-gray-50 uppercase group-hover:text-white">
 										Schedule a Free Call
 									</span>
-									<div className="relative z-10 flex h-[30px] w-[30px] items-center justify-center rounded-full bg-gray-50 p-2 opacity-70 group-hover:bg-white group-hover:opacity-100">
+									<div className="relative z-10 flex 2xl:h-[30px] xl:h-[30px] lg:h-[28px] md:h-[28px] sm:h-[26px] max-sm:h-[26px] 2xl:w-[30px] xl:w-[30px] lg:w-[28px] md:w-[28px] sm:w-[26px] max-sm:w-[26px] items-center justify-center rounded-full bg-gray-50 p-2 opacity-70 group-hover:bg-white group-hover:opacity-100">
 										<svg
 											viewBox="0 0 448 512"
 											xmlns="http://www.w3.org/2000/svg"

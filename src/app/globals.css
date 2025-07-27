@@ -228,6 +228,7 @@ html{
     @apply bg-gradient-to-r from-[#fb45e8] to-[#4f87fe];
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    
 }
 
 @keyframes spinClockwise {
@@ -665,28 +666,53 @@ html{
         margin-right: -15%;
     }
 
-    .profession{
-        width: 300px;
-        font-size: clamp(1.6563rem, 0.125rem + 1.4583vw, 1.875rem);
-        font-weight: 400;
-        line-height: 98.64%;
-    }
-
     .card-profession{
         width: 456px;
         height: 320px;
         border: 1px solid #d6249f;
     }
 
-    .profession-content{
-        top: 24px;
+   .profession{
+        font-size: clamp(1.6563rem, 0.125rem + 1.4583vw, 1.875rem);
+        font-weight: 400;
+        line-height: 98.64%;
+        right: 14%;
+        text-align: right;
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        -ms-justify-content: flex-end;
+        -moz-justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        align-items: center;
+        -ms-align-items: center;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        border: 1px solid #cf0000;
+    }
+
+    .profession h2{
+        margin-bottom: 0px;
+        margin-top: 8px;
+    }
+
+    .profession h2 span{
+        width: auto;
+        position: absolute;
+        right: 0px;
+    }
+
+    .profession-content {
+        top: 20px;
     }
 
     .card-profession img{
         width: 314px;
-        margin-top: -20%;
-        margin-right: -6%;
+        margin-top: -25.64%;
+        margin-right: -4.6%;
     }
+
 
 }
 
@@ -731,6 +757,47 @@ html{
 
     .navmenu{
         font-size: clamp(2.1563rem, 1.1911rem + 1.0127vw, 2.4063rem);
+    }    
+
+   .profession{
+        font-size: clamp(1.6563rem, .125rem + 1.4583vw, 1.875rem);
+        font-weight: 400;
+        line-height: 98.64%;
+        right: 14%;
+        text-align: right;
+        width: 286px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        -ms-justify-content: flex-end;
+        -moz-justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        align-items: center;
+        -ms-align-items: center;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        border: 1px solid #cf0000;
+    }
+
+    .profession h2{
+        margin-bottom: 0px;
+        margin-top: 8px;
+    }
+
+    .profession h2 span{
+        width: auto;
+        position: absolute;
+        right: 0px;
+    }
+
+    .profession-content {
+        top: 20px;
+    }
+
+    .card-profession img {
+        width: 336px;
+        margin-top: -26.64%;
+        margin-right: -4.6%;
     }    
 
 }
@@ -841,7 +908,56 @@ html{
         width: 56px;
         height: 56px;
     }
+    .greeting-name {
+        margin-right: -18%;
+        line-height: 98.64%;
+    }
+    .card-profession{
+        width: 456px;
+        height: 320px;
+        border: 1px solid #d6249f;
+    }
 
+   .profession{
+        font-size: clamp(1.6563rem, 0.125rem + 1.4583vw, 1.875rem);
+        font-weight: 400;
+        line-height: 98.64%;
+        right: 11.5%;
+        text-align: right;
+        width: 300px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        -ms-justify-content: flex-end;
+        -moz-justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        align-items: center;
+        -ms-align-items: center;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        border: 1px solid #cf0000;
+    }
+
+    .profession h2{
+        margin-bottom: 0px;
+        margin-top: 8px;
+    }
+
+    .profession h2 span{
+        width: auto;
+        position: absolute;
+        right: 0px;
+    }
+
+    .profession-content {
+        top: 20px;
+    }
+
+    .card-profession img{
+        width: 314px;
+        margin-top: -25.64%;
+        margin-right: -4.6%;
+    }
 
 }
 
@@ -872,7 +988,7 @@ html{
         font-size: clamp(1.7813rem, -10.2902rem + 14.2857vw, 1.9063rem);
         font-weight: bold;
         line-height: 98.64%;
-        margin-right: -8%;
+        margin-right: -32.5%;
     }
 
     .profession{
@@ -887,15 +1003,50 @@ html{
         height: 320px;
         border: 1px solid #d6249f;
     }
-
-    .profession-content{
-        top: 24px;
+    .greeting-name{
+        font-size: clamp(1.75rem, -7.3036rem + 10.7143vw, 1.8438rem);
+        font-weight: bold;
+        line-height: 98.64%;
+    }
+    .profession{
+        font-size: clamp(1.375rem, -0.3605rem + 2.3256vw, 1.5rem);
+        font-weight: 400;
+        line-height: 98.64%;
+        right: -5%;
+        text-align: right;
+        width: 224px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        -ms-justify-content: flex-end;
+        -moz-justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        align-items: center;
+        -ms-align-items: center;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        border: 1px solid #cf0000;
     }
 
-    .card-profession img{
-        width: 264px;
-        margin-top: -20%;
-        margin-right: -6%;
+    .profession h2{
+        margin-bottom: 0px;
+        margin-top: 8px;
+    }
+
+    .profession h2 span{
+        width: auto;
+        position: absolute;
+        right: 0px;
+    }
+
+    .profession-content {
+        top: 56px;
+    }
+
+    .card-profession img {
+        width: 256px;
+        margin-top: -18.64%;
+        margin-right: -3.6%;
     }
 
     .initialize{
@@ -1114,10 +1265,46 @@ html{
         line-height: 98.64%;
     }
     .profession{
-        font-size: clamp(1.75rem, -7.3036rem + 10.7143vw, 1.8438rem);
+        font-size: clamp(1.375rem, -0.3605rem + 2.3256vw, 1.5rem);
         font-weight: 400;
         line-height: 98.64%;
+        right: -24%;
+        text-align: right;
+        width: 224px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        -ms-justify-content: flex-end;
+        -moz-justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        align-items: center;
+        -ms-align-items: center;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        border: 1px solid #cf0000;
     }
+
+    .profession h2{
+        margin-bottom: 0px;
+        margin-top: 8px;
+    }
+
+    .profession h2 span{
+        width: auto;
+        position: absolute;
+        right: 0px;
+    }
+
+    .profession-content {
+        top: 56px;
+    }
+
+    .card-profession img {
+        width: 256px;
+        margin-top: -18.64%;
+        margin-right: -3.6%;
+    }
+
     .rotate-clockwise{
         width: 56px;
         height: 56px;
@@ -1218,13 +1405,20 @@ html{
     .initialize{
         font-size: clamp(1.5313rem, -7.5223rem + 10.7143vw, 1.625rem)!important;
     }
+
+    .card-profession {
+        border: 1px solid #d6249f;
+        width: 386px;
+        height: 284px;
+    }
+
     .greeting-name{
-        font-size: clamp(1.75rem, -7.3036rem + 10.7143vw, 1.8438rem);
+        font-size: clamp(1.3438rem, -0.4345rem + 2.381vw, 1.4688rem);
         font-weight: bold;
         line-height: 98.64%;
     }
     .profession{
-        font-size: clamp(1.75rem, -7.3036rem + 10.7143vw, 1.8438rem);
+        font-size: clamp(1.2188rem, -0.115rem + 1.7857vw, 1.3125rem);
         font-weight: 400;
         line-height: 98.64%;
     }
@@ -1232,7 +1426,28 @@ html{
         width: 56px;
         height: 56px;
     }
+    .card-profession img {
+        width: 274px;
+        margin-top: -25.64%;
+        margin-right: -3.2%;
+    }
 
+    .profession {
+        text-align: right;
+        -ms-justify-content: flex-end;
+        -moz-justify-content: flex-end;
+        -ms-align-items: center;
+        -moz-align-items: center;
+        border: 1px solid #cf0000;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        /* align-items: center; */
+        width: 286px;
+        font-weight: 400;
+        line-height: 98.64%;
+        display: flex;
+        right: 29%;
+    }
 }
 
 @media screen and (min-device-width: 1081px) and (max-device-width: 1194px) {
@@ -1240,6 +1455,76 @@ html{
         max-width: 1010px;
         margin: 0 auto;
     }
+
+    .navmenu{
+        font-size: clamp(1.4688rem, 0.5719rem + 1.3274vw, 1.5625rem);
+        line-height: 105%;
+        position: relative;
+    }
+    .heading-hero {
+        font-size: clamp(2.9063rem, 0.5147rem + 3.5398vw, 3.1563rem);
+    }
+
+    .initialize{
+        font-size: clamp(1.1563rem, 0.2594rem + 1.3274vw, 1.25rem);
+    }
+
+    .companynameheading-5 {
+        font-size: clamp(1.0625rem, -0.4322rem + 2.2124vw, 1.2188rem);
+        line-height: 118%;
+    }
+
+    .greeting-name{
+        font-size: clamp(1.3125rem, 0.1167rem + 1.7699vw, 1.4375rem);
+        font-weight: bold;
+        line-height: 98.64%;
+    }
+    .profession{
+        font-size: clamp(1.1875rem, -0.0083rem + 1.7699vw, 1.3125rem);
+        font-weight: 400;
+        line-height: 98.64%;
+        right: -26.5%;
+        text-align: right;
+        width: 224px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        -ms-justify-content: flex-end;
+        -moz-justify-content: flex-end;
+        -webkit-justify-content: flex-end;
+        align-items: center;
+        -ms-align-items: center;
+        -moz-align-items: center;
+        -webkit-align-items: center;
+        border: 1px solid #cf0000;
+    }
+
+    .profession h2{
+        margin-bottom: 0px;
+        margin-top: 8px;
+    }
+
+    .profession h2 span{
+        width: auto;
+        position: absolute;
+        right: 0px;
+    }
+
+    .profession-content {
+        top: 56px;
+    }
+
+    .card-profession img {
+        width: 256px;
+        margin-top: -18.64%;
+        margin-right: -3.6%;
+    }
+
+    .rotate-clockwise{
+        width: 48px;
+        height: 48px;
+    }
+
 }
 
 /* MEDIA 1180 START */
@@ -1673,7 +1958,6 @@ html{
         top: 7.7%;
     }    
 
-
     .circle-green-trans{
         width: 282px;
         height: 282px;
@@ -1681,7 +1965,6 @@ html{
         opacity: 0.76;
     }
 
-    
     .textes {
         font-size: 11.86px !important;
         letter-spacing: 2.30px;
@@ -1717,6 +2000,25 @@ html{
         line-height: 118%;
     }
 
+    .heading-hero {
+        font-size: clamp(2.0938rem, 1.2009rem + 3.8095vw, 2.3438rem);
+        letter-spacing: -1.04px;
+    }    
+
+    .initialize {
+        font-size: clamp(1.1563rem, 0.7098rem + 1.9048vw, 1.2813rem);
+        position: relative;
+        left: -10px;
+    }
+
+    .rotate-clockwise{
+        width: 40px;
+        height: 40px;
+    }
+
+    .card-profession{
+        display: none;
+    }
 }
 
 /* COSTUME END*/

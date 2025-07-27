@@ -47,8 +47,8 @@ function Header() {
         // Kelas 'solidheader' ditambahkan berdasarkan state 'isSolid'
         <div className={`header ${isSolid ? "solidheader" : ""}`}>
             <div className="wrapper relative z-24">
-                <div className="flex items-center justify-between 2xl:py-1.5 xl:py-1.5 lg:py-1.5 md:py-2.5 sm:py-2.5 max-sm:py-2.5 max-sm:px-3 sm:px-3 md:px-4.5 lg:px-1.5 xl:px-1.5 2xl:px-1.5">
-                    <div className="w-[132px] [&>a>img]:max-w-[100%]">
+                <div className="flex items-center justify-between 2xl:py-1.5 xl:py-1.5 lg:py-1.5 md:py-2.5 sm:py-2.5 max-sm:py-2.5 max-sm:px-3 sm:px-3 md:px-4.5 lg:px-0.5 xl:px-1.5 2xl:px-1.5">
+                    <div className="2xl:w-[132px] xl:w-[132px] lg:w-[114px] md:w-[110px] sm:w-[96px] max-sm:w-[96px] [&>a>img]:max-w-[100%]">
                         <Link href="/">
                             <Image
                                 src="/images/logo-g-color.png"
@@ -69,13 +69,13 @@ function Header() {
                     <div className="w-auto 2xl:flex xl:flex lg:flex md:flex sm:hidden max-sm:hidden">
                         <Link
                             href="/"
-                            className="group relative flex w-[178px] items-center justify-between overflow-hidden rounded-[32px] border-2 border-solid border-gray-800 px-6 py-3 shadow-none transition-all duration-500 before:absolute before:inset-0 before:-z-10 before:rounded-[32px] before:bg-gradient-to-r before:from-[rgba(32,79,240,1)] before:to-[rgba(227,22,98,1)] before:p-[2px] hover:border-[rgba(0,0,0,0.01)] hover:shadow-[0_1px_10px_rgba(151,164,175,.29)] hover:shadow-md [&::before]:opacity-0 [&::before]:content-[''] hover:[&::before]:z-2 hover:[&::before]:opacity-100"
+                            className="group relative flex w-[179.5px] items-center justify-between overflow-hidden rounded-[32px] border-2 border-solid border-gray-800 2xl:px-6 xl:px-6 lg:px-6 md:px-5 sm:px-5 max-sm:px-5 2xl:py-3 xl:py-3 lg:py-2.5 md:py-3 sm:py-2.5 max-sm:py-2.5 shadow-none transition-all duration-500 before:absolute before:inset-0 before:-z-10 before:rounded-[32px] before:bg-gradient-to-r before:from-[rgba(32,79,240,1)] before:to-[rgba(227,22,98,1)] before:p-[2px] hover:border-[rgba(0,0,0,0.01)] hover:shadow-[0_1px_10px_rgba(151,164,175,.29)] hover:shadow-md [&::before]:opacity-0 [&::before]:content-[''] hover:[&::before]:z-2 hover:[&::before]:opacity-100"
                         >
                             <span className="absolute inset-[2.5px] rounded-[32px] bg-gradient-to-r from-[#498afe] to-[#ff43e9] opacity-0 transition-opacity duration-500 group-hover:z-3 group-hover:opacity-100"></span>
-                            <span className="relative z-10 mr-1.5 text-lg font-semibold text-gray-950 uppercase transition-colors duration-500 group-hover:text-white">
+                            <span className="relative z-10 2xl:mr-2 xl:mr-2 lg:mr-[5px] md:mr-2 sm:mr-2 max-sm:mr-1.5 2xl:text-lg xl:text-lg lg:text-[15.5px] sm:text-[15px] max-sm:text-[15px] font-semibold text-gray-950 uppercase transition-colors duration-500 group-hover:text-white">
                                 Let's Talk
                             </span>
-                            <div className="relative z-10 flex h-[30px] w-[30px] items-center justify-center rounded-[15px] bg-gray-950 p-2 transition-colors duration-500 group-hover:bg-white">
+                            <div className="relative z-10 flex 2xl:h-[30px] xl:h-[30px] lg:h-[28px] md:h-[28px] sm:h-[26px] max-sm:h-[26px] 2xl:w-[30px] xl:w-[30px] lg:w-[28px] md:w-[28px] sm:w-[26px] max-sm:w-[26px] items-center justify-center rounded-[15px] bg-gray-950 p-2 transition-colors duration-500 group-hover:bg-white">
                                 <svg
                                     viewBox="0 0 448 512"
                                     xmlns="http://www.w3.org/2000/svg"
